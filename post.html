@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link type="text/css" rel="stylesheet" href="css/datetimepicker.css"/>
+		<link type="text/css" rel="stylesheet" href="css/post.css"/>
+		<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Lelangapp - Aplikasi lelang online</title>
+	</head>
+	
+	<body>
+		<main>
+			<div class="container">
+				<a href="index.html"><img src="img/logo.png"></a>
+				<div class="head">
+					<h1>Apa yang ingin anda lelang?</h1>
+					<p class="caption">Dapatkan penawaran terbaik dari pembeli</p>
+				</div>
+				<form>
+					<div class="input-group">
+						<div class="label">
+							<h3>Nama barang</h3>
+						</div>
+						<input type="text" placeholder="cth. Hot Wheels TH$" required>
+					</div>
+					<div class="input-group">
+						<div class="label">
+							<h3>Kategori barang</h3>
+						</div>
+						<select>
+							<option value="" disabled selected>Kategori</option>
+							<option>Mainan</option>
+							<option>Gadget</option>
+							<option>Karya seni</option>
+							<option>Fashion</option>
+							<option>Lainya</option>
+						</select>
+					</div>
+					<div class="input-group">
+						<div class="label">
+							<h3>Deskripsi barang</h3>
+							<p class="caption">Deskripsikan semua detail barang</p>
+						</div>
+						<textarea rows="4" placeholder="Deskripsikan di sini" required></textarea>
+					</div>
+					<div class="input-group">
+						<div class="label">
+							<h3>Foto barang</h3>
+						</div>
+						<div class="input-file-container"> 
+							<input class="input-file" id="inputFile" accept="image/*" type="file"><br>
+							<img id="image_upload_preview" src="#" />
+						</div>
+						<p class="file-return"></p>
+					</div>
+					<div class="input-group">
+						<div class="label">
+							<h3>Harga</h3>
+						</div>
+						<div class="budget-row">
+							<div class="budget-col">
+								<p>Penawaran pertama</p>
+								<input type="number" placeholder="cth. 20000" required>
+							</div>
+							<div class="budget-col">
+								<p>Minimal penawaran selanjutnya</p>
+								<input type="number" placeholder="cth. 3000" required>
+							</div>
+							<div class="budget-col">
+								<p><input type="checkbox" id="bin" value="bin" name="bin">Beli sekarang</p>
+								<input type="number" id="bin-inp" placeholder="cth. 45000" disabled required>
+							</div>
+						</div>
+					</div>
+					<div class="input-group">
+						<div class="label">
+							<h3>Waktu lelang ditutup</h3>
+						</div>
+						<div id="picker"> </div>
+						<input type="hidden" id="result" value="">
+					</div>
+					<input type="submit" value="Lelang barang ini" class="btn btn-yl" href="#">
+				</form>
+			</div>
+		</main>
+		<!--Javascript-->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/moment-with-locales.js"></script>
+		<script type="text/javascript" src="js/datetimepicker.js"></script>
+		<script type="text/javascript" src="js/post.js"></script>
+	</body>
+</html>
