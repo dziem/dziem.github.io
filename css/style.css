@@ -16,6 +16,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   text-decoration: none;
   /*color: black;*/
 }
+strike{text-decoration: line-through;}
 strong{font-weight: bold;}
 ol, ul {
   list-style: none;
@@ -25,7 +26,7 @@ body{
 	line-height: 1.5;
 	margin: auto;
 	float: none;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Roboto',Arial,sans-serif;
 	font-weight: lighter;
 }
 html {
@@ -47,6 +48,9 @@ html {
 }
 .italic{
 	font-style: italic;
+}
+.thin{
+	font-weight: lighter;
 }
 .underline{
 	text-decoration: underline;
@@ -72,80 +76,92 @@ a {
 	max-width: 1280px;
 	margin: 0 auto;
 	position: relative;
-	overflow: visible;
 	padding: 0 30px;
 }
+.row{width: 100%;display: flex;flex-wrap: wrap;}
+.col{flex: 25%;max-width: 25%;padding: 0 15px;}
+.flex-right{margin-left: auto;}
 .btn{
-	border-radius: 5px;
-	padding: 15px !important;
+	padding: 10px 15px;
+	line-height: 1;
 	transition: all 300ms;
+	border: 0;
+	border-radius: 5px;
+	font-size: 16px;
 }
 .btn:hover{cursor: pointer;}
-.btn-yl{
-	color: white !important;
-	background: #fc5c65;
-	border: solid 1px #fc5c65;
-}
-.btn-yl:hover{background: #E8565D;color: white;border-color: #E8565D;}
-.btn-gr{
-	color: white !important;
-	background: #20BF6B;
-	border: solid 1px #20BF6B;
-}
-.btn-gr:hover{background: #1DAB5F;color: white;border-color: #1DAB5F;}
-.btn-o{
+.btn-org{
 	color: white;
-	background: none;
-	border: solid 1px white;
+	background: #EE5A24;
 }
-.btn-o:hover{background: white;color: black;}
-.row{width: 100%;display: flex;flex-wrap: wrap;}
-.col-25{width: calc(25% - 30px);margin: 0 15px;}
-
-/* Navbar */
-nav{
-	width: 100%;
-	display: block;
-	background: white;
-	color: white;
-	line-height: 1;
-	float: left;
-	position: absolute;
-	top: 0;
-	z-index: 100;
+.btn-org:hover{
+	background: #E05522;
 }
-nav ul, nav img{float: left;}
-nav img{margin-top: 7.5px;margin-right: 15px;}
-nav ul li{float: left;}
-nav .right{position: relative;}
-nav ul a, nav .right a{
-	padding: 25px 15px;
-	float: left;
-	color: black;
+.txt-org{
+	color: #EE5A24;
+}
+.link{
+	color: #EE5A24;
 	transition: all 300ms;
 }
-nav a.btn{margin-top: 10px;margin-left: 15px;}
-nav a:hover, nav a.active{
-	color: #20bf6b;
+.link:hover{color: #E05522;cursor: pointer;}
+.relative{position: relative;}
+.line{
+	width: 100%;
+	height: 1px;
+	background: #ddd;
+	margin: 15px 0;
 }
-.nav-dropdown {
-	position: absolute;
-	display: none;
-	z-index: 1;
-	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+p.big{font-size: 20px;}
+.sm-line{
+	margin: 7.5px auto 30px;
+	width: 50px;
+	height: 5px;
+	border-radius: 5px;
+	background: #6ab04c;
+}
+
+/* Nav */
+nav{
+	position: fixed;
+	width: 100%;
+	padding: 20px 0;
+	background: #6ab04c;
+	line-height: 1;
+	z-index: 111;
+	min-height: 56px;
+}
+nav ul{
+	width: 100%;
+	text-align: right;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition: all 300ms;
+	font-weight: bolder;
+}
+nav ul li a:hover, nav ul li.active a{
+	color: #6ab04c;
+	background: white;
 }
 .nav-mobile {
 	display: none;
 	position: absolute;
 	top: 0;
 	right: 0;
-	height: 70px;
-	width: 70px;
+	height: 61px;
+	width: 61px;
 }
 #nav-toggle {
 	position: absolute;
-	top: 20px;
-	right: 0;
+	left: 13px;
+	top: 15px;
 	cursor: pointer;
 	padding: 10px 35px 16px 0px;
 	z-index: 100;
@@ -157,7 +173,7 @@ nav a:hover, nav a.active{
 	border-radius: 1px;
 	height: 5px;
 	width: 35px;
-	background: #4a4a4a;
+	background: white;
 	position: absolute;
 	display: block;
 	content: '';
@@ -181,140 +197,106 @@ nav a:hover, nav a.active{
 #nav-toggle.active span:after {
 	transform: rotate(-45deg);
 }
-.user-menu{
-	position: relative;
-}
-.user-menu:hover{cursor: pointer;}
-.user-menu-item{
-	position: absolute;
-	top: 66px;
-	right: 0;
-	background: white;
-	border-radius: 3px;
-	-webkit-box-shadow: 0 1px 3px 0 rgba(27,27,27,.1),0 4px 8px 0 rgba(27,27,27,.1);
-	box-shadow: 0 1px 3px 0 rgba(27,27,27,.1),0 4px 8px 0 rgba(27,27,27,.1);
-	display: none;
-	min-width: 175px;
-}
-.user-menu-item li{display: block;width: 100%;}
-.user-menu-item li a{display: block;width: 100%;padding: 15px;}
 
 /* Header */
 header{
-	background: #20bf6b;
+	background: #6ab04c;
 	color: white;
-	text-align: center;
+	font-size: 1.5em;
 	padding: 150px 0;
-	margin-top: 60px;
 }
-header .btn-ctr{margin-top: 30px;}
-header .btn-ctr a:first-child{margin-right: 5px;}
 
-/* How It Works & Find Something Now */
-#how, #find{
-	padding: 50px 0;
+/* Work */
+#work{
 	text-align: center;
+	padding: 45px 0;
 }
-#find{background: #f5f6fa;}
-#how img{max-width: 192px;}
-#how .row, #find .row{margin-top: 30px;}
-#find .col-25{position: relative;line-height: 0;}
-#find .col-25 .ovrly{
+#work .col{
+	border-radius: 5px;
+	padding: 15px;
+	transition: all 300ms;
+	position: relative;
+	flex: 50%;
+	max-width: 50%;
+}
+#work .col:hover{
+	background: #eee;
+}
+#work .col a{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	top: 0;
+	z-index: 99;
 	left: 0;
-	z-index: 100;
-	background: rgba(0,0,0,.5);
-	transition: all 500ms;
+	top: 0;
 }
-#find .col-25 .ovrly:hover{background: rgba(0,0,0,.75);color: red;}
-#find .col-25 p{
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	color: white;
+#work .res{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	background: rgba(255,255,255,.7);
+	color: black;
+	font-size: 12px;
+	border-radius: 5px;
+	padding: 5px;
 }
 
-/* Offer */
-#offer{padding: 50px 0;}
-#offer .row{margin-top: 30px;}
-#offer .col-25 div{margin-bottom: 7.5px;}
-#offer .col-25 div h2{padding-bottom: 7.5px;}
-#offer .col-25 div h3{font-weight: lighter;}
-#offer .col-25 div h3 a{color: #20bf6b;transition: all 300ms;}
-#offer .col-25 div h3 a:hover{color: #1CA65C;}
+/* Profile */
+#profile{
+	text-align: center;
+	padding: 45px 0;
+	background: #6ab04c;
+	color: white;
+}
+#profile .sm-line{background: white;}
+#profile h2{text-align: left;margin-bottom: 30px;}
+#profile .col{
+	text-align: left;
+	padding: 0;
+}
+
+/* Contact */
+#contact{
+	text-align: center;
+	padding: 45px 0;
+}
+#contact a{
+	color: black;
+	transition: all 300ms;
+}
+#contact a:hover{
+	color: #6ab04c;
+}
 
 /* Footer */
 footer{
-	background: #20bf6b;
-	float: left;
-	padding: 20px 0 15px;
-	width: 100%;
+	padding: 15px 0;
+	background: #6ab04c;
 	color: white;
-	line-height: 1;
 }
-footer .left{line-height: 42px;}
-footer span.fa-stack i.fa-circle{color: white;transition: all 300ms;}
-footer span.fa-stack i:last-child{color: #20bf6b;transition: all 300ms;}
-footer span.fa-stack:hover i:last-child{color: white;}
-footer span.facebook:hover i.fa-circle{color: #537BBD;}
-footer span.instagram:hover i.fa-circle{color: #696A6A;}
-footer  span.pinterest:hover i.fa-circle{color: #CC2028;}
-footer span.twitter:hover i.fa-circle{color: #78CDF0;}
 
-/* Responsive Stuff */
+/* Mobile */
 @media screen and (max-width: 992px) {
-	.col-25{width: calc(50% - 30px);margin: 15px;}
+	.col{flex: 50%;max-width: 50%;padding: 15px;}
+	#work .col{flex: 100%;max-width: 100%;padding: 15px;}
+	#profile .col{flex: 100%;max-width: 100%;padding: 0;}
 }
 @media screen and (max-width: 768px) {
-	.container{padding: 0 15px;}
-	nav{
-		padding: 0 30px;
+	.col{flex: 100%;max-width: 100%;padding: 15px;}
+	nav ul{
+		text-align: left;
+		display: none;
 	}
-	nav img{margin-bottom: 7.5px;}
-	nav .container{padding: 0;}
-	nav li{
-		float: none;
+	nav ul li:first-child{margin-top: 0;}
+	nav ul li:last-child{margin-bottom: 0;}
+	nav ul li{
 		display: block;
-		padding: 5px 0;
-		width: 100%;
+		margin: 15px 0;
 	}
-	nav a{
-		display: block;
-		padding-left: 0;
-	}
-	nav .right{display: none;}
 	.nav-mobile {
 		display: block;
 	}
-	nav ul {
-		display: none;
-		float: none;
-		top: 0;
-		margin: 0;
-		width: 100%;
-	}
-	.nav-dropdown {
-		position: static;
-	}
-	nav ul > li:first-child{margin-top: 5px;}
-	nav ul li a{
-		padding: 5px 0;
-		border: 0;
-		width: 100%;
-	}
-	nav a.btn{margin-left: 0;margin-bottom: 15px;}
-	.col-25{width: 100%;margin: 15px 0;}
-	footer .left, footer .right{width: 100%;text-align: center;}
 }
 @media screen and (min-width: 768px) {
-	nav ul {
-		display: inline-block !important;
-	}
-	nav ul .mobile{
-		display: none;
-	}
-	nav .right{display: block;}
+	nav ul{display: block !important;}
 }

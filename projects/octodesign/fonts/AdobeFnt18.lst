@@ -1,0 +1,113 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialMT
+FamilyName:Arial
+StyleName:Regular
+MenuName:Arial
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Arial
+WritingScript:Roman
+OutlineFileName:\Arial.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:773236
+FileModTime:1505130010
+NameArray:0,Mac,4,Arial
+NameArray:0,Win,1,Arial
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DINBoldAlternate
+FamilyName:DIN
+StyleName:BoldAlternate
+MenuName:DIN
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DIN BoldAlternate
+WritingScript:Roman
+OutlineFileName:\DIN BoldAlternate.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:40052
+FileModTime:1505130078
+NameArray:0,Mac,4,DIN BoldAlternate
+NameArray:0,Win,1,DIN
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DINLightAlternate
+FamilyName:DIN
+StyleName:LightAlternate
+MenuName:DIN
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DIN LightAlternate
+WritingScript:Roman
+OutlineFileName:\DIN LightAlternate.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:39920
+FileModTime:1505130078
+NameArray:0,Mac,4,DIN LightAlternate
+NameArray:0,Win,1,DIN
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DINMediumAlternate
+FamilyName:DIN
+StyleName:MediumAlternate
+MenuName:DIN
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DIN MediumAlternate
+WritingScript:Roman
+OutlineFileName:\DIN MediumAlternate.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:39872
+FileModTime:1505130078
+NameArray:0,Mac,4,DIN MediumAlternate
+NameArray:0,Win,1,DIN
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DIN
+FamilyName:DIN
+StyleName:Regular
+MenuName:DIN
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DIN
+WritingScript:Roman
+OutlineFileName:\DIN.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:39556
+FileModTime:1505130078
+NameArray:0,Mac,4,DIN
+NameArray:0,Win,1,DIN
+%EndFont
+

@@ -1,0 +1,4 @@
+abu A4A3A1
+hijau gelap 387A10
+hijau terang 5FB22F, hover 55A12A
+hitam (bg) 181F29

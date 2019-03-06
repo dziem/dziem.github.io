@@ -1,0 +1,22 @@
+.home input{color: white;}
+.home input:focus{border-color: white;}
+.home .btn{
+	color: white;
+	border: solid 1px white;
+}
+.home .btn:hover{background: white;color: black;cursor: pointer;}
+.home{background: black;color: white;}
+.home nav ul li a{color: white;}
+.home nav ul li a:hover{border-color: white;}
+.home main h1 a{color: white;}
+.home main h1 a:hover{text-decoration: underline;}
+.home #nav-toggle span:before,
+.home #nav-toggle span:after{background: white;}
+
+@media screen and (max-width: 768px) {
+	.home nav .search-mobile input{color: white;}
+	.home nav .search-mobile input:focus{border-color: white;}
+	.home nav .search-mobile button{border-color: white;color: white;}
+	.home nav .search-mobile button:hover{background: white;color: black;}
+	.home main h1{font-size: 36px;}
+}

@@ -1,0 +1,31 @@
+.c-list {
+	column-count: 2;
+	-webkit-column-count: 2;
+	column-gap: 0;
+	-webkit-column-gap: 0;
+	width: 40%;
+	padding: 0 15px 30px;
+}
+.c-item {
+	-webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+	margin-bottom: 15px;
+	padding-right: 15px;
+}
+.c-list p.bold{text-transform: capitalize;}
+.c-list .line{width: 40%;}
+.c-list li{font-size: .8em}
+
+@media screen and (max-width: 992px){
+	.c-list{width: 50%;}
+}
+@media screen and (max-width: 768px){
+	.c-list{width: 100%;}
+}
+@media screen and (max-width: 576px) {
+	.c-list {
+		column-count: 1;
+		-webkit-column-count: 1;
+	}
+}
