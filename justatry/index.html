@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link type="text/css" rel="stylesheet" href="css/jquery.modal.min.css"/>
+		<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"/>
+		<link type="text/css" rel="stylesheet" href="css/flickity.min.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Title</title>
+	</head>
+	
+	<body>
+		<!--Top Element-->
+		<div id="top">
+			<div id="main-top">
+				<div class="row">
+					<div class="col-75">
+						<p class="bold">Next event</p>
+						<p><a data-modal="#ex1" href="#!">Today, 10pm <span class="bit-space">E301</span> <span class="bit-space">Science In Sp...</span></a></p>
+					</div>
+					<div class="col-25">
+						<i class="fa fa-search fa-2x clickable" id="search"></i>
+					</div>
+				</div>
+			</div>
+			<div id="search-top">
+				<i class="fa fa-arrow-left fa-2x clickable" id="bacc"></i>
+				<input type="text" name="search" placeholder="Cari acara" autofocus />
+			</div>
+		</div>
+		<!--End Top Element-->
+		<!--Main-->
+		<main>
+			<!--Home-->
+			<div id="home" class="tab_content">
+				<div id="featured">
+					<h2>Featured Events</h2>
+					<div class="carousel" data-flickity='{ "imagesLoaded": true,"resize": true,"wrapAround": true,"setGallerySize": true }'>
+						<div class="carousel-cell">
+							<img src="img/event1.png"/>
+						</div>
+						<div class="carousel-cell">
+							<img src="img/event2.png"/>
+						</div>
+						<div class="carousel-cell">
+							<img src="img/event3.png"/>
+						</div>
+					</div>
+				</div>
+				<div id="events">
+					<h2>All Events</h2>
+					<div class="event">
+						<img src="img/event.png"/>
+						<h2>Science In Space with Neil deGrasse Tyson</h2>
+						<div class="row">
+							<p class="col"><i class="fa fa-calendar"></i>03 Apr 2019, 10pm</p>
+							<p class="col"><i class="fa fa-map-marker"></i>E301</p>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut orci et augue viverra venenatis at ut erat. Ut mollis eget ligula at viverra. Maecenas in sapien mi. Fusc...</p>
+						<p class="text-right detail">See details</p>
+					</div>
+					<div class="event">
+						<img src="img/event.png"/>
+						<h2>Science In Space with Neil deGrasse Tyson</h2>
+						<div class="row">
+							<p class="col"><i class="fa fa-calendar"></i>03 Apr 2019, 10pm</p>
+							<p class="col"><i class="fa fa-map-marker"></i>E301</p>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut orci et augue viverra venenatis at ut erat. Ut mollis eget ligula at viverra. Maecenas in sapien mi. Fusc...</p>
+						<p class="text-right detail">See details</p>
+					</div>
+				</div>
+			</div>
+			<!--End Home-->
+			<!--Calendar-->
+			<div id="calendar" class="tab_content">Calendar</div>
+			<!--End Calendar-->
+			<!--Ticket-->
+			<div id="ticket" class="tab_content">Ticket</div>
+			<!--End Ticket-->
+			<!--Acount-->
+			<div id="acount" class="tab_content">Acount</div>
+			<!--End Acount-->
+		</main>
+		<!--End Main-->
+		<!--Nav-->
+		<nav>
+			<ul class="tabs">
+				<li><a href="#home"><i class="fa fa-home fa-2x"></i></a></li>
+				<li><a href="#calendar"><i class="fa fa-calendar fa-2x"></i></a></li>
+				<li><a href="#ticket"><i class="fa fa-ticket fa-2x"></i></a></li>
+				<li><a href="#acount"><i class="fa fa-user fa-2x"></i></a></li>
+			</ul>
+		</nav>
+		<!--End Nav-->
+		<!--Popup Coming Up-->
+		<div id="ex1" class="modal">
+			<h1>Next event</h1>
+			<img src="img/comingup.png"/>
+			<h2>Science In Space with Neil deGrasse Tyson</h2>
+			<div class="row">
+				<p class="col"><i class="fa fa-calendar"></i>Today, 10pm</p>
+				<p class="col"><i class="fa fa-map-marker"></i>E301</p>
+			</div>
+		</div>
+		<div class="overlay"></div>
+		<!--Javascript-->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.modal.min.js"></script>
+		<script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
