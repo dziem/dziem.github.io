@@ -28,4 +28,14 @@ $(document).ready(function($) {
 	  $('#main-top').toggle();
 	  $('#search-top').toggle();
   });
+  $('.readmore').click(function() {
+	  $('#about-event').toggleClass('big');
+	  $('.readmore').toggle();
+	  $('.readless').toggle();
+  });
+  $('.readless').click(function() {
+	  $('#about-event').toggleClass('big');
+	  $('.readmore').toggle();
+	  $('.readless').toggle();
+  });
 });

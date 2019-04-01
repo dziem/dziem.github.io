@@ -1,0 +1,110 @@
+body {
+  background: white !important;
+}
+
+header {
+  max-height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+header img {
+  max-width: 100%;
+  height: auto;
+  object-fit: fill;
+  object-position: 50% 50%;
+}
+header a {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgba(255, 255, 255, 0.75);
+  color: #333;
+  width: 36px;
+  height: 36px;
+  line-height: 46px;
+  border-radius: 50%;
+  text-align: left;
+  padding-left: 7px;
+  transition: all 300ms;
+}
+header a:hover {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+main {
+  padding-top: 30px;
+  background: white;
+  padding-bottom: 59px;
+}
+main h1, main h3.by {
+  line-height: 1;
+}
+main h3.by {
+  color: #999;
+  margin-bottom: 15px;
+}
+main .info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+main .info .icon {
+  flex: 1;
+  max-width: 36px;
+  padding-right: 7.5px;
+}
+main .info .text {
+  flex: 1;
+  padding-left: 7.5px;
+}
+main .info .text p:first-child {
+  color: #FD0300;
+}
+main #about-event {
+  max-height: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+main #about-event h3 {
+  margin-bottom: 15px;
+  line-height: 1;
+}
+main #about-event.big {
+  max-height: 10000px;
+  height: auto;
+}
+main .readless, main .readmore {
+  color: #999;
+}
+main .readless {
+  display: none;
+}
+main h3.location {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+}
+nav button {
+  text-align: center;
+  padding: 10px 15px;
+  border: solid 1px #FD0300;
+  transition: all 300ms;
+  color: #FD0300;
+  cursor: pointer;
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  background: white;
+}
+nav button:hover {
+  background: #FD0300;
+  color: white;
+}
+
+/*# sourceMappingURL=event.css.map */
