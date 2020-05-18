@@ -6,8 +6,8 @@ if ("serviceWorker" in navigator) {
 		  console.log("Pendaftaran ServiceWorker berhasil");
 		  requestPermission();
 		})
-		.catch(function() {
-		  console.log("Pendaftaran ServiceWorker gagal");
+		.catch(function(error) {
+		  console.log(error);
 		});
 	});
 } else {
