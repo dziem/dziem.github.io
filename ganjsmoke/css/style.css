@@ -7,6 +7,31 @@ span.red{
     font-weight: bold;
 }
 
+/* Contact WA */
+#contact-wa{
+    position: fixed;
+    z-index: 99999;
+    bottom: 30px;
+    right: 30px;
+    width: 68px;
+    height: 68px;
+    line-height: 63px;
+    border-radius: 50%;
+    font-size: 48px;
+    background: #25D366;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 22px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 22px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 22px -11px rgba(0,0,0,0.75);
+    transition: all 300ms;
+}
+#contact-wa i{
+    color: white;
+}
+#contact-wa:hover{
+    background: #1FAD53;
+}
+
 /* Contact Top */
 #contact-top {
     background: #DD1B3C;
