@@ -1,0 +1,21 @@
+$(document).ready(function(){
+    $('.ui.sidebar').sidebar({
+        context: $('body'),
+        transition: 'overlay'
+    }).sidebar('attach events', '#mobile_item');   
+    $('nav .menu .item').popup({
+        on: 'hover',
+        hoverable: true,
+        position: 'bottom left'
+    });
+    $('.ui.dropdown').dropdown({
+        on: 'hover'
+    }); 
+    $('.main-carousel').flickity({
+        wrapAround: true,
+        autoPlay: true,
+        prevNextButtons: false,
+    });
+    $('.ui.accordion').accordion();
+    $('#copyright-year').text(new Date().getFullYear());
+});

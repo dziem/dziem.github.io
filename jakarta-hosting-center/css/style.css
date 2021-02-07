@@ -1,0 +1,368 @@
+.ui.grid {
+    margin: 0 !important;
+}
+.flickity-page-dots .dot {
+    margin: 0 2.5px;
+}
+
+#top-bar {
+    background: #333334;
+    padding: 0 1rem;
+    color: white;
+}
+#top-bar .column.social a, #top-bar .column.menus a {
+    color: white;
+    transition: all 300ms;
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+#top-bar .column.social a:hover {
+    color: #ddd;
+}
+#top-bar .column.menus i {
+    color: #53C9F4;
+}
+#top-bar .column.menus a:hover span {
+    text-decoration: underline;
+}
+
+nav {
+    background: white;
+}
+nav #logo {
+    max-height: 75px;
+}
+nav .ui.menu {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+nav .ui.menu .item {
+    align-self: auto;
+}
+nav .ui.menu .item::before {
+    background: transparent;
+}
+nav .grid .tablet.row {
+    padding-bottom: 0;
+}
+nav .popup .grid .column {
+    color: black;
+    transition: all 300ms;
+}
+nav .popup .grid .column:hover {
+    background: #ddd;
+}
+nav .popup .grid .column .header {
+    margin-bottom: .25rem;
+}
+.ui.sidebar {
+    overflow: visible !important;
+}
+
+.ribbon {
+    background: rgb(45,49,128);
+    background: linear-gradient(90deg, rgba(45,49,128,1) 0%, rgba(130,48,69,1) 100%);
+    color: white;
+}
+.ribbon .grid {
+    align-items: center;
+}
+.ribbon .grid .item {
+    align-self: auto;
+}
+.ribbon h1 {
+    margin-bottom: .25rem;
+}
+.ribbon h2 {
+    margin-top: 0;
+}
+.ribbon .button {
+    border-radius: 50px;
+    background: white;
+    color:#ED1C24;
+    transition: all 300ms;
+}
+.ribbon .button:hover {
+    background: #ddd;
+    color:#ED1C24;
+}
+
+#banner {
+	width: 100%;
+	background-image: url("../img/bg-desk.jpg");
+	background-position: center; 
+	background-repeat: no-repeat;
+    background-size: 100%;
+	color: white;
+}
+#banner .layer {
+    background-color: rgba(48, 50, 58, 0.8);    
+    width: 100%;
+    height: 100%;
+    padding: 300px 100px;
+    text-align: center;
+}
+
+.ribbon.domain, .ribbon.blue {
+    background: rgb(0,127,194);
+    background: linear-gradient(90deg, rgba(0,127,194,1) 0%, rgba(13,60,127,1) 100%);
+}
+.ribbon.domain .input {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 20px;
+}
+.ribbon.domain .input input {
+    border-radius: 0;
+}
+.ribbon.domain .input select {
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0;
+}
+.ribbon.domain .prices .grid .column {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+.ribbon.domain .prices .grid .column span {
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ribbon.domain .prices .grid {
+    justify-content: center;
+}
+.ribbon.domain .prices .grid .column span.domain {
+    color: #ED1C24;
+}
+.ribbon.domain .prices .grid .column span.og-price {
+    text-decoration: line-through;
+}
+.ribbon.domain .prices .grid .column span.dc-price {
+    color: #FFF200;
+}
+
+#domain-prices {
+    padding: 75px 0;
+}
+#domain-prices .column.big {
+    transform: scale(1.1);
+}
+#domain-prices .column .content {
+    border: solid 1px black;
+}
+#domain-prices .column .content .head {
+    background: black;
+    color: white;
+    padding: 15px 0 30px;
+}
+#domain-prices .column .content .head p, #domain-prices .column .content .head h1 {
+    margin: 0;
+}
+#domain-prices .column .content .code {
+    font-size: 1.5rem;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background: #0095DA;
+    padding: 15px 0;
+    width: 75%;
+}
+#domain-prices .column.big .content .code {
+    background: rgb(245,130,32);
+    background: linear-gradient(90deg, rgba(245,130,32,1) 0%, rgba(233,30,58,1) 100%); 
+}
+#domain-prices .column .content .description {
+    padding: 30px 15px;
+}
+#domain-prices .column .content .description .item {
+    padding: 5px 0;
+    border-bottom: solid 1px #ddd;
+}
+#domain-prices .column .content .description .item .red {
+    color: #ED1C24;
+}
+#domain-prices .column .content .description .item:last-child {
+    border-bottom: 0;
+}
+#domain-prices .column .content .info-button {
+    display: block;
+    font-size: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background: #0095DA;
+    padding: 15px 0;
+    width: 75%;
+    margin-bottom: 15px;
+    transition: all 300ms;
+}
+#domain-prices .column.big .content .info-button{
+    background: rgb(245,130,32);
+    background: linear-gradient(90deg, rgba(245,130,32,1) 0%, rgba(233,30,58,1) 100%); 
+}
+#domain-prices .column .content .info-button:hover {
+    background: #0083BF;
+}
+#domain-prices .column.big .content .info-button:hover {
+    background: rgb(219,118,29);
+    background: linear-gradient(90deg, rgba(219,118,29,1) 0%, rgba(207,27,51,1) 100%); 
+}
+
+.ribbon.info {
+    background: rgb(239,80,81);
+    background: linear-gradient(90deg, rgba(239,80,81,1) 0%, rgba(246,144,99,1) 100%); 
+}
+.ribbon.info img {
+    max-width: 200px;
+}
+.ribbon.info p:first-child {
+    margin-bottom: 0;
+}
+.ribbon.info h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.ribbon.info .icons {
+    font-size: 0;
+}
+
+#features {
+    background-image: url("../img/bg-map.jpg");
+	background-position: center; 
+	background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+#features .layer {
+    background-color: rgba(48, 50, 58, 0.8);
+    padding: 30px 0;
+}
+#features img {
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 50%;
+}
+#features .row.features {
+    padding: 0 !important;
+}
+#features .features .grid {
+    align-items: center;
+}
+
+#testimonies {
+    text-align: center;
+    padding: 30px 0;
+}
+#testimonies h1 i.icon {
+    color: #86C340;
+}
+#testimonies .container {
+    background: #F4F6F6;
+    padding: 50px 0;
+}
+#testimonies .carousel-cell {
+    width: 100%;
+    padding: 50px 100px 20px;
+}
+#testimonies .carousel-cell .img-ctr {
+    padding-bottom: 30px;
+}
+#testimonies .carousel-cell img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+#testimonies .carousel-cell .name:before, #testimonies .carousel-cell .name:after {
+    content: '--';
+    padding: 0 5px;
+}
+#testimonies .carousel-cell .name {
+    color: #86C340;
+}
+
+#q-and-a h2 {
+    text-align: center;
+}
+
+.ribbon.support {
+    padding: 30px 0;
+}
+.ribbon.support h1 {
+    font-weight: lighter;
+}
+.ribbon.support h1 strong {
+    font-weight: 900;
+}
+.ribbon.support .button {
+    color: black;
+}
+
+footer {
+    padding: 50px 0;
+}
+footer .head {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer .head:first-child {
+    margin-top: 0;
+}
+footer a {
+    color: black;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer .cards img {
+    max-width: 75px;
+    max-height: 50px;
+}
+
+#bottom-bar {
+    background: rgb(0,127,194);
+    background: linear-gradient(90deg, rgba(0,127,194,1) 0%, rgba(13,60,127,1) 100%);
+    color: white;
+    padding: 15px 0;
+}
+#bottom-bar a {
+    color: white;
+    margin: 0 7.5px;
+}
+#bottom-bar a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width:767px) {
+    nav .ui.menu {
+        align-items: center;
+        justify-content: left;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #top-bar .column, #bottom-bar .column {
+        text-align: center;
+    }
+    nav #logo {
+        max-height: 50px;
+    }
+    #banner .layer {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .ribbon .column {
+        text-align: center !important;
+    }
+    #banner .layer {
+        padding: 100px;
+    }
+    #domain-prices .column.big {
+        transform: scale(1);
+    }
+}
