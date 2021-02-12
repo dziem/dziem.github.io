@@ -1,4 +1,4 @@
-.ui.grid {
+.ui.grid:not(.ui.popup .ui.grid) {
     margin: 0 !important;
 }
 .flickity-page-dots .dot {
@@ -85,6 +85,19 @@ nav .popup .grid .column .header {
 .ribbon .button:hover {
     background: #ddd;
     color:#ED1C24;
+}
+.ribbon .timer .content {
+    background: white;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+.ribbon .timer h4 {
+    margin-bottom: 0;
+    font-size: 24px;
+}
+.ribbon .timer h5 {
+    margin-top: 0;
 }
 
 #banner {
@@ -336,6 +349,58 @@ footer .cards img {
     text-decoration: underline;
 }
 
+.ribbon.big-feature {
+    padding: 30px;
+}
+.ribbon.big-feature h1 {
+    font-size: 48px;
+}
+
+#certificate-products {
+    padding: 50px 0;
+}
+#certificate-products .row.logo h1 {
+    color: #8AC6CB;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+#certificate-products .row.logo h2 {
+    margin-top: 0;
+    color: #206780;
+}
+#certificate-products .row.logo img {
+    max-width: 200px;
+}
+#certificate-products .grid .row {
+    align-items: center;
+}
+#certificate-products .discount {
+    max-width: 100px;
+}
+#certificate-products table {
+    border: 0;
+    border-radius: 0;
+}
+#certificate-products table thead th {
+    color: white;
+    background: #88C7CC;
+    font-size: 18px;
+    border-radius: 0;
+}
+#certificate-products table tr td.popular {
+    position: relative;
+}
+#certificate-products table tr td.popular img {
+    position: absolute;
+    left: -110px;
+    max-width: 125px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#certificate-products table tr td, #certificate-products table tr th {
+    border: 0;
+}
+
 @media only screen and (min-width:767px) {
     nav .ui.menu {
         align-items: center;
@@ -364,5 +429,12 @@ footer .cards img {
     }
     #domain-prices .column.big {
         transform: scale(1);
+    }
+    #certificate-products table tr td.popular img {
+        position: relative;
+        transform: translateY(0);
+        top: 0;
+        left: 0;
+        display: block;
     }
 }
