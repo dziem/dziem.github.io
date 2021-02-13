@@ -20,7 +20,8 @@ $(document).ready(function(){
     });
     $('.sidebar.menu .ui.dropdown').on("tap", function(event) {
         event.stopPropagation();
-        alert('bababab')
+        $(this).css("background", "red")
+        alert($(this).css("background")
         $('.sidebar.menu .ui.dropdown').not(this).removeClass('visible active');
         $('.sidebar.menu .ui.dropdown').not(this).children('.menu').removeClass('active');
         $('.sidebar.menu .ui.dropdown').not(this).children('.menu').hide();
