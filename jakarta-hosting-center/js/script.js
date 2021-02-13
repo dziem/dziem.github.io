@@ -12,6 +12,7 @@ $(document).ready(function(){
         on: $('.sidebar.menu .ui.dropdown').on("tap")
     });*/
     $(window).tap(function() {
+        alert('bababab')
         if ($('.sidebar.menu .ui.dropdown').hasClass('visible active')) {
             $('.sidebar.menu .ui.dropdown').removeClass('visible active');
             $('.sidebar.menu .ui.dropdown').children('.menu').removeClass('active');
