@@ -158,7 +158,10 @@ nav .popup .grid .column .header {
 #domain-prices {
     padding: 75px 0;
 }
-#domain-prices .column.big {
+#domain-prices .column {
+    transition: all 300ms;
+}
+#domain-prices .column:hover {
     transform: scale(1.1);
 }
 #domain-prices .column .content {
@@ -182,7 +185,7 @@ nav .popup .grid .column .header {
     padding: 15px 0;
     width: 75%;
 }
-#domain-prices .column.big .content .code {
+#domain-prices .column:hover .content .code {
     background: rgb(245,130,32);
     background: linear-gradient(90deg, rgba(245,130,32,1) 0%, rgba(233,30,58,1) 100%); 
 }
@@ -211,14 +214,14 @@ nav .popup .grid .column .header {
     margin-bottom: 15px;
     transition: all 300ms;
 }
-#domain-prices .column.big .content .info-button{
+#domain-prices .column:hover .content .info-button{
     background: rgb(245,130,32);
     background: linear-gradient(90deg, rgba(245,130,32,1) 0%, rgba(233,30,58,1) 100%); 
 }
 #domain-prices .column .content .info-button:hover {
     background: #0083BF;
 }
-#domain-prices .column.big .content .info-button:hover {
+#domain-prices .column:hover .content .info-button:hover {
     background: rgb(219,118,29);
     background: linear-gradient(90deg, rgba(219,118,29,1) 0%, rgba(207,27,51,1) 100%); 
 }
@@ -418,6 +421,20 @@ footer .cards img {
     #banner .layer {
         padding: 50px;
     }
+    .ribbon.domain form, .ribbon.domain form input, .ribbon.domain form select, .ribbon.domain form button {
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+    .ribbon.domain form select {
+        padding: 10px 0;
+    }
+    .ribbon.domain form button {
+        padding: 20px 0 !important;
+    }
+    #features .row.features .column {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width:991px) {
@@ -427,14 +444,21 @@ footer .cards img {
     #banner .layer {
         padding: 100px;
     }
-    #domain-prices .column.big {
-        transform: scale(1);
-    }
     #certificate-products table tr td.popular img {
         position: relative;
         transform: translateY(0);
         top: 0;
         left: 0;
         display: block;
+    }
+    footer {
+        text-align: center;
+    }
+    #certificate-products table td, #certificate-products table th {
+        text-align: center;
+    }
+    #certificate-products table tr td.popular img {
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
