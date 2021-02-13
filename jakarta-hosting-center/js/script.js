@@ -9,8 +9,8 @@ $(document).ready(function(){
         position: 'bottom left'
     });
     $('.sidebar.menu .ui.dropdown').dropdown({
-        on: 'click'
-    }); 
+        on: $('.sidebar.menu .ui.dropdown').on("tap")
+    });
     $('.ui.dropdown').not('.sidebar.menu .ui.dropdown').dropdown({
         on: 'hover'
     });
