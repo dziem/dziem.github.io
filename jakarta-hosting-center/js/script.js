@@ -8,24 +8,8 @@ $(document).ready(function(){
         hoverable: true,
         position: 'bottom left'
     });
-    /*$('.sidebar.menu .ui.dropdown').dropdown({
-        on: $('.sidebar.menu .ui.dropdown').on("tap")
-    });*/
-    $(window).tap(function() {
-        if ($('.sidebar.menu .ui.dropdown').hasClass('visible active')) {
-            $('.sidebar.menu .ui.dropdown').removeClass('visible active');
-            $('.sidebar.menu .ui.dropdown').children('.menu').removeClass('active');
-            $('.sidebar.menu .ui.dropdown').children('.menu').hide();
-        }
-    });
-    $('.sidebar.menu .ui.dropdown').on("tap", function(event) {
-        event.stopPropagation();
-        $('.sidebar.menu .ui.dropdown').not(this).removeClass('visible active');
-        $('.sidebar.menu .ui.dropdown').not(this).children('.menu').removeClass('active');
-        $('.sidebar.menu .ui.dropdown').not(this).children('.menu').hide();
-        $(this).toggleClass('visible active');
-        $(this).children('.menu').toggleClass('visible');
-        $(this).children('.menu').toggle();
+    $('.sidebar.menu .ui.dropdown').dropdown({
+        on: 'click'
     });
     $('.ui.dropdown').not('.sidebar.menu .ui.dropdown').dropdown({
         on: 'hover'

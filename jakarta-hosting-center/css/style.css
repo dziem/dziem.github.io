@@ -60,7 +60,10 @@ nav .popup .grid .column .header {
     overflow: visible !important;
 }
 .ui.sidebar .dropdown {
-    z-index: 9999999;
+    z-index: 999;
+}
+.pusher.dimmed {
+    z-index: -1 !important;
 }
 
 .ribbon {
