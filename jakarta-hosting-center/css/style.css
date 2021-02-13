@@ -59,6 +59,9 @@ nav .popup .grid .column .header {
 .ui.sidebar {
     overflow: visible !important;
 }
+.ui.sidebar .dropdown {
+    z-index: 9999999;
+}
 
 .ribbon {
     background: rgb(45,49,128);
