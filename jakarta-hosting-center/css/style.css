@@ -43,7 +43,8 @@ nav .ui.menu .item::before {
     background: transparent;
 }
 nav .grid .tablet.row {
-    padding-bottom: 0;
+    padding-bottom: 0!important;
+    padding-top: 0 !important;
 }
 nav .popup .grid .column {
     color: black;
