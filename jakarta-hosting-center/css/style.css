@@ -1,3 +1,6 @@
+.red {
+    background: red !important;
+}
 .ui.grid:not(.ui.popup .ui.grid) {
     margin: 0 !important;
 }
