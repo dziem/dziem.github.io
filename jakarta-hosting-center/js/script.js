@@ -24,9 +24,9 @@ $(document).ready(function(){
         $('.sidebar.menu .ui.dropdown').not(this).children('.menu').removeClass('active');
         $('.sidebar.menu .ui.dropdown').not(this).children('.menu').hide();
         $(this).toggleClass('visible active');
-        $(this).toggleClass('red');
         $(this).children('.menu').toggleClass('visible');
         $(this).children('.menu').toggle();
+        alert($(this).html())
     });
     $('.ui.dropdown').not('.sidebar.menu .ui.dropdown').dropdown({
         on: 'hover'
