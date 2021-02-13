@@ -26,7 +26,6 @@ $(document).ready(function(){
         $(this).toggleClass('visible active');
         $(this).children('.menu').toggleClass('visible');
         $(this).children('.menu').toggle();
-        alert($(this).html())
     });
     $('.ui.dropdown').not('.sidebar.menu .ui.dropdown').dropdown({
         on: 'hover'
