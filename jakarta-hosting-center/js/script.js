@@ -8,9 +8,12 @@ $(document).ready(function(){
         hoverable: true,
         position: 'bottom left'
     });
-    $('.ui.dropdown').dropdown({
-        on: 'hover'
+    $('.sidebar.menu .ui.dropdown').dropdown({
+        on: 'click'
     }); 
+    $('.ui.dropdown').not('.sidebar.menu .ui.dropdown').dropdown({
+        on: 'hover'
+    });
     $('.main-carousel').flickity({
         wrapAround: true,
         autoPlay: true,
