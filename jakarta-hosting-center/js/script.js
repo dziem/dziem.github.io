@@ -12,7 +12,6 @@ $(document).ready(function(){
         on: $('.sidebar.menu .ui.dropdown').on("tap")
     });*/
     $(window).tap(function() {
-        alert('bababab')
         if ($('.sidebar.menu .ui.dropdown').hasClass('visible active')) {
             $('.sidebar.menu .ui.dropdown').removeClass('visible active');
             $('.sidebar.menu .ui.dropdown').children('.menu').removeClass('active');
@@ -21,6 +20,7 @@ $(document).ready(function(){
     });
     $('.sidebar.menu .ui.dropdown').on("tap", function(event) {
         event.stopPropagation();
+        alert('bababab')
         $('.sidebar.menu .ui.dropdown').not(this).removeClass('visible active');
         $('.sidebar.menu .ui.dropdown').not(this).children('.menu').removeClass('active');
         $('.sidebar.menu .ui.dropdown').not(this).children('.menu').hide();
