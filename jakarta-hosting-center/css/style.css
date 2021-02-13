@@ -1,5 +1,8 @@
-.ui.grid:not(.ui.popup .ui.grid) {
+.ui.grid {
     margin: 0 !important;
+}
+.ui.popup .ui.grid {
+    margin: -.7rem -.875rem !important;
 }
 .flickity-page-dots .dot {
     margin: 0 2.5px;
