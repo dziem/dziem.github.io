@@ -147,7 +147,7 @@ var simplemaps_countrymap_mapdata={
       url: "jawa-timur.html"
     },
     IDJK: {
-      name: "Jakarta Raya",
+      name: "DKI Jakarta",
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
@@ -339,7 +339,7 @@ var simplemaps_countrymap_mapdata={
       url: "sumatera-utara.html"
     },
     IDYO: {
-      name: "Yogyakarta",
+      name: "Daerah Istimewa Yogyakarta",
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
@@ -386,7 +386,7 @@ var simplemaps_countrymap_mapdata={
       parent_id: "IDJI"
     },
     IDJK: {
-      name: "Jakarta Raya",
+      name: "DKI Jakarta",
       parent_id: "IDJK"
     },
     IDJT: {
@@ -482,7 +482,7 @@ var simplemaps_countrymap_mapdata={
       parent_id: "IDSU"
     },
     IDYO: {
-      name: "Yogyakarta",
+      name: "Daerah Istimewa Yogyakarta",
       parent_id: "IDYO"
     }
   },
