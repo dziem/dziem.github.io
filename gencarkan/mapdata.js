@@ -76,141 +76,275 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     IDAC: {
       name: "Aceh",
-      description: "Prioritas 1",
       url: "aceh.html",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "Prioritas 2"
     },
     IDBA: {
       name: "Bali",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "bali.html"
     },
     IDBB: {
       name: "Bangka-Belitung",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "bangka-belitung.html"
     },
     IDBE: {
       name: "Bengkulu",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "bengkulu.html"
     },
     IDBT: {
       name: "Banten",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "banten.html"
     },
     IDGO: {
       name: "Gorontalo",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "Prioritas 2",
+      url: "gorontalo.html"
     },
     IDJA: {
       name: "Jambi",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "jambi.html"
     },
     IDJB: {
       name: "Jawa Barat",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "jawa-barat.html"
     },
     IDJI: {
       name: "Jawa Timur",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "jawa-timur.html"
     },
     IDJK: {
       name: "Jakarta Raya",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "jakarta-raya.html"
     },
     IDJT: {
       name: "Jawa Tengah",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "jawa-tengah.html"
     },
     IDKB: {
       name: "Kalimantan Barat",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "Prioritas 2",
+      url: "kalimantan-barat.html"
     },
     IDKI: {
       name: "Kalimantan Timur",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "kalimantan-timur.html"
     },
     IDKR: {
       name: "Kepulauan Riau",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "kepulauan-riau.html"
     },
     IDKS: {
       name: "Kalimantan Selatan",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "kalimantan-selatan.html"
     },
     IDKT: {
       name: "Kalimantan Tengah",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "Prioritas 1",
+      url: "kalimantan-tengah.html"
     },
     IDKU: {
       name: "Kalimantan Utara",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "kalimantan-utara.html"
     },
     IDLA: {
       name: "Lampung",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "lampung.html"
     },
     IDMA: {
       name: "Maluku",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "Prioritas 1",
+      url: "maluku.html"
     },
     IDMU: {
       name: "Maluku Utara",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "Prioritas 1",
+      url: "maluku-utara.html"
     },
     IDNB: {
       name: "Nusa Tenggara Barat",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "nusa-tenggara-barat.html"
     },
     IDNT: {
       name: "Nusa Tenggara Timur",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "Prioritas 2",
+      url: "nusa-tenggara-timur.html"
     },
     IDPA: {
       name: "Papua",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "Prioritas 1",
+      url: "papua.html"
     },
     IDPB: {
       name: "Papua Barat",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "Prioritas 1",
+      url: "papua-barat.html"
     },
     IDRI: {
       name: "Riau",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "riau.html"
     },
     IDSA: {
       name: "Sulawesi Utara",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "Prioritas 1",
+      url: "sulawesi-utara.html"
     },
     IDSB: {
       name: "Sumatera Barat",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "Prioritas 2",
+      url: "sumatera-barat.html"
     },
     IDSG: {
       name: "Sulawesi Tenggara",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "Prioritas 1",
+      url: "sulawesi-tenggara.html"
     },
     IDSN: {
       name: "Sulawesi Selatan",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "sulawesi-selatan.html"
     },
     IDSR: {
       name: "Sulawesi Barat",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "Prioritas 1",
+      url: "sulawesi-barat.html"
     },
     IDSS: {
       name: "Sumatera Selatan",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "Prioritas 2",
+      url: "sumatera-selatan.html"
     },
     IDST: {
       name: "Sulawesi Tengah",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "Prioritas 2",
+      url: "sulawesi-tengah.html"
     },
     IDSU: {
       name: "Sumatera Utara",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "Prioritas 2",
+      url: "sumatera-utara.html"
     },
     IDYO: {
       name: "Yogyakarta",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#4cd137",
+      hover_color: "#44bd32",
+      description: "Prioritas 3",
+      url: "yogyakarta.html"
     }
   },
   locations: {},

@@ -2,27 +2,45 @@
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Country Map Example</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mapping Prioritas GENCARKAN</title>
+	<link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="mapdata.js"></script>
     <script src="countrymap.js"></script>
+	<style>
+		.merah{
+			color: #e84118 !important;
+			background-color: #e84118 !important;
+		}
+		.kuning{
+			color: #fbc531 !important;
+			background-color: #fbc531 !important;
+		}
+		.ijo{
+			color: #4cd137 !important;
+			background-color: #4cd137 !important;
+		}
+	</style>
   </head>
   <body>
-  <h1>HTML5/Javascript Country Map</h1>
-    <div id="map"></div>
-    
-    
-      <p>This map was created and can be edited at <a href="http://simplemaps.com/custom/country/IywEuNGk">http://simplemaps.com/custom/country/IywEuNGk</a>
-    
-    
-      <p>To remove the "Simplemaps.com Trial" text, <a href="http://simplemaps.com/pricing" />purchase a map license</a>.  
-      
-      Then, register your license at the link above (Options > Register Purchase).  Or, simply replace the countrymap.js file in this folder (trial version) with the countrymap.js file that you are emailed (full version).
-      
-      </p>
-    
-    <p>To learn how to install this map on your web page, see the <a href="http://simplemaps.com/docs">Documentation</a>.</p>
-	</body>
+	<div class="container-fluid">
+		<h1 class="text-center p-3">Mapping Prioritas GENCARKAN</h1>
+		<div id="map"></div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<h3><span class="badge merah">A</span> Prioritas 1</h3>
+			</div>
+			<div class="col text-center">
+				<h3><span class="badge kuning">A</span> Prioritas 2</h3>
+			</div>
+			<div class="col text-center">
+				<h3><span class="badge ijo">A</span> Prioritas 3</h3>
+			</div>
+		</div>
+	</div>
+  </body>
 </html>
-      
-    
-
