@@ -80,22 +80,22 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#fbc531",
       hover_color: "#e1b12c",
-      description: "Prioritas 2"
+      description: "6 Kab/Kota"
     },
     IDBA: {
       name: "Bali",
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "bali.html"
     },
     IDBB: {
-      name: "Bangka-Belitung",
+      name: "Kepulauan Bangka Belitung",
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "1 Kab/Kota",
       url: "bangka-belitung.html"
     },
     IDBE: {
@@ -103,7 +103,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "bengkulu.html"
     },
     IDBT: {
@@ -111,7 +111,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "banten.html"
     },
     IDGO: {
@@ -119,7 +119,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#fbc531",
       hover_color: "#e1b12c",
-      description: "Prioritas 2",
+      description: "3 Kab/Kota",
       url: "gorontalo.html"
     },
     IDJA: {
@@ -127,7 +127,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "1 Kab/Kota",
       url: "jambi.html"
     },
     IDJB: {
@@ -135,7 +135,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "jawa-barat.html"
     },
     IDJI: {
@@ -143,7 +143,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "jawa-timur.html"
     },
     IDJK: {
@@ -151,7 +151,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "jakarta-raya.html"
     },
     IDJT: {
@@ -159,7 +159,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "jawa-tengah.html"
     },
     IDKB: {
@@ -167,7 +167,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#fbc531",
       hover_color: "#e1b12c",
-      description: "Prioritas 2",
+      description: "6 Kab/Kota",
       url: "kalimantan-barat.html"
     },
     IDKI: {
@@ -175,7 +175,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "kalimantan-timur.html"
     },
     IDKR: {
@@ -183,7 +183,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "1 Kab/Kota",
       url: "kepulauan-riau.html"
     },
     IDKS: {
@@ -191,7 +191,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "kalimantan-selatan.html"
     },
     IDKT: {
@@ -199,7 +199,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "Prioritas 1",
+      description: "9 Kab/Kota",
       url: "kalimantan-tengah.html"
     },
     IDKU: {
@@ -207,7 +207,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "1 Kab/Kota",
       url: "kalimantan-utara.html"
     },
     IDLA: {
@@ -215,7 +215,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "lampung.html"
     },
     IDMA: {
@@ -223,7 +223,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "Prioritas 1",
+      description: "8 Kab/Kota",
       url: "maluku.html"
     },
     IDMU: {
@@ -231,7 +231,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "Prioritas 1",
+      description: "8 Kab/Kota",
       url: "maluku-utara.html"
     },
     IDNB: {
@@ -239,7 +239,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "nusa-tenggara-barat.html"
     },
     IDNT: {
@@ -247,7 +247,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#fbc531",
       hover_color: "#e1b12c",
-      description: "Prioritas 2",
+      description: "6 Kab/Kota",
       url: "nusa-tenggara-timur.html"
     },
     IDPA: {
@@ -255,7 +255,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "Prioritas 1",
+      description: "22 Kab/Kota",
       url: "papua.html"
     },
     IDPB: {
@@ -263,7 +263,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "Prioritas 1",
+      description: "10 Kab/Kota",
       url: "papua-barat.html"
     },
     IDRI: {
@@ -271,7 +271,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "2 Kab/Kota",
       url: "riau.html"
     },
     IDSA: {
@@ -279,7 +279,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "Prioritas 1",
+      description: "9 Kab/Kota",
       url: "sulawesi-utara.html"
     },
     IDSB: {
@@ -287,7 +287,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#fbc531",
       hover_color: "#e1b12c",
-      description: "Prioritas 2",
+      description: "5 Kab/Kota",
       url: "sumatera-barat.html"
     },
     IDSG: {
@@ -295,7 +295,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "Prioritas 1",
+      description: "6 Kab/Kota",
       url: "sulawesi-tenggara.html"
     },
     IDSN: {
@@ -303,7 +303,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "1 Kab/Kota",
       url: "sulawesi-selatan.html"
     },
     IDSR: {
@@ -311,7 +311,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "Prioritas 1",
+      description: "4 Kab/Kota",
       url: "sulawesi-barat.html"
     },
     IDSS: {
@@ -319,7 +319,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#fbc531",
       hover_color: "#e1b12c",
-      description: "Prioritas 2",
+      description: "5 Kab/Kota",
       url: "sumatera-selatan.html"
     },
     IDST: {
@@ -327,7 +327,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#fbc531",
       hover_color: "#e1b12c",
-      description: "Prioritas 2",
+      description: "5 Kab/Kota",
       url: "sulawesi-tengah.html"
     },
     IDSU: {
@@ -335,7 +335,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#fbc531",
       hover_color: "#e1b12c",
-      description: "Prioritas 2",
+      description: "10 Kab/Kota",
       url: "sumatera-utara.html"
     },
     IDYO: {
@@ -343,7 +343,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "Prioritas 3",
+      description: "0 Kab/Kota",
       url: "yogyakarta.html"
     }
   },
@@ -358,8 +358,8 @@ var simplemaps_countrymap_mapdata={
       parent_id: "IDBA"
     },
     IDBB: {
-      name: "Bangka-Belitung",
-      parent_id: "IDBB"
+      parent_id: "IDBB",
+      name: "Kepulauan Bangka Belitung"
     },
     IDBE: {
       name: "Bengkulu",
