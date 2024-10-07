@@ -78,9 +78,9 @@ var simplemaps_countrymap_mapdata={
       name: "Aceh",
       url: "aceh.html",
       zoomable: "no",
-      color: "#fbc531",
-      hover_color: "#e1b12c",
-      description: "6 Kab/Kota"
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "23 Kab/Kota"
     },
     IDBA: {
       name: "Bali",
@@ -93,9 +93,9 @@ var simplemaps_countrymap_mapdata={
     IDBB: {
       name: "Kepulauan Bangka Belitung",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "1 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "7 Kab/Kota",
       url: "bangka-belitung.html"
     },
     IDBE: {
@@ -103,7 +103,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      description: "2 Kab/Kota",
       url: "bengkulu.html"
     },
     IDBT: {
@@ -111,23 +111,23 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      description: "2 Kab/Kota",
       url: "banten.html"
     },
     IDGO: {
       name: "Gorontalo",
       zoomable: "no",
-      color: "#fbc531",
-      hover_color: "#e1b12c",
-      description: "3 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "5 Kab/Kota",
       url: "gorontalo.html"
     },
     IDJA: {
       name: "Jambi",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "1 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "8 Kab/Kota",
       url: "jambi.html"
     },
     IDJB: {
@@ -135,63 +135,63 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#4cd137",
       hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      description: "3 Kab/Kota",
       url: "jawa-barat.html"
     },
     IDJI: {
       name: "Jawa Timur",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "12 Kab/Kota",
       url: "jawa-timur.html"
     },
     IDJK: {
       name: "DKI Jakarta",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "2 Kab/Kota",
       url: "jakarta-raya.html"
     },
     IDJT: {
       name: "Jawa Tengah",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "13 Kab/Kota",
       url: "jawa-tengah.html"
     },
     IDKB: {
       name: "Kalimantan Barat",
       zoomable: "no",
-      color: "#fbc531",
-      hover_color: "#e1b12c",
-      description: "6 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "12 Kab/Kota",
       url: "kalimantan-barat.html"
     },
     IDKI: {
       name: "Kalimantan Timur",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "6 Kab/Kota",
       url: "kalimantan-timur.html"
     },
     IDKR: {
       name: "Kepulauan Riau",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "1 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "5 Kab/Kota",
       url: "kepulauan-riau.html"
     },
     IDKS: {
       name: "Kalimantan Selatan",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "5 Kab/Kota",
       url: "kalimantan-selatan.html"
     },
     IDKT: {
@@ -199,23 +199,23 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "9 Kab/Kota",
+      description: "13 Kab/Kota",
       url: "kalimantan-tengah.html"
     },
     IDKU: {
       name: "Kalimantan Utara",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "1 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "4 Kab/Kota",
       url: "kalimantan-utara.html"
     },
     IDLA: {
       name: "Lampung",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "5 Kab/Kota",
       url: "lampung.html"
     },
     IDMA: {
@@ -223,7 +223,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "8 Kab/Kota",
+      description: "11 Kab/Kota",
       url: "maluku.html"
     },
     IDMU: {
@@ -231,23 +231,23 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "8 Kab/Kota",
+      description: "9 Kab/Kota",
       url: "maluku-utara.html"
     },
     IDNB: {
       name: "Nusa Tenggara Barat",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "0 Kab/Kota",
+      color: "#fbc531",
+      hover_color: "#e1b12c",
+      description: "5 Kab/Kota",
       url: "nusa-tenggara-barat.html"
     },
     IDNT: {
       name: "Nusa Tenggara Timur",
       zoomable: "no",
-      color: "#fbc531",
-      hover_color: "#e1b12c",
-      description: "6 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "16 Kab/Kota",
       url: "nusa-tenggara-timur.html"
     },
     IDPA: {
@@ -255,7 +255,7 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "22 Kab/Kota",
+      description: "26 Kab/Kota",
       url: "papua.html"
     },
     IDPB: {
@@ -263,15 +263,15 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "10 Kab/Kota",
+      description: "13 Kab/Kota",
       url: "papua-barat.html"
     },
     IDRI: {
       name: "Riau",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "2 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "9 Kab/Kota",
       url: "riau.html"
     },
     IDSA: {
@@ -279,15 +279,15 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "9 Kab/Kota",
+      description: "13 Kab/Kota",
       url: "sulawesi-utara.html"
     },
     IDSB: {
       name: "Sumatera Barat",
       zoomable: "no",
-      color: "#fbc531",
-      hover_color: "#e1b12c",
-      description: "5 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "13 Kab/Kota",
       url: "sumatera-barat.html"
     },
     IDSG: {
@@ -295,15 +295,15 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "6 Kab/Kota",
+      description: "12 Kab/Kota",
       url: "sulawesi-tenggara.html"
     },
     IDSN: {
       name: "Sulawesi Selatan",
       zoomable: "no",
-      color: "#4cd137",
-      hover_color: "#44bd32",
-      description: "1 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "18 Kab/Kota",
       url: "sulawesi-selatan.html"
     },
     IDSR: {
@@ -311,31 +311,31 @@ var simplemaps_countrymap_mapdata={
       zoomable: "no",
       color: "#e84118",
       hover_color: "#c23616",
-      description: "4 Kab/Kota",
+      description: "5 Kab/Kota",
       url: "sulawesi-barat.html"
     },
     IDSS: {
       name: "Sumatera Selatan",
       zoomable: "no",
-      color: "#fbc531",
-      hover_color: "#e1b12c",
-      description: "5 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "13 Kab/Kota",
       url: "sumatera-selatan.html"
     },
     IDST: {
       name: "Sulawesi Tengah",
       zoomable: "no",
-      color: "#fbc531",
-      hover_color: "#e1b12c",
-      description: "5 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "11 Kab/Kota",
       url: "sulawesi-tengah.html"
     },
     IDSU: {
       name: "Sumatera Utara",
       zoomable: "no",
-      color: "#fbc531",
-      hover_color: "#e1b12c",
-      description: "10 Kab/Kota",
+      color: "#e84118",
+      hover_color: "#c23616",
+      description: "25 Kab/Kota",
       url: "sumatera-utara.html"
     },
     IDYO: {
